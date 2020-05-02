@@ -9,6 +9,12 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+    footer p#parrafoDerechos {
+        font-size: 8px;
+    }
+    footer p#parrafoContacto {
+        font-size: 11px;
+    }
 }
 
 @media (min-width: 300px) {
@@ -21,6 +27,12 @@
     .formulario {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    footer p#parrafoDerechos {
+        font-size: 10px;
+    }
+    footer p#parrafoContacto {
+        font-size: 13px;
     }
 }
 
@@ -35,6 +47,12 @@
         margin-left: 15%;
         margin-right: 15%;
     }
+    footer p#parrafoDerechos {
+        font-size: 12px;
+    }
+    footer p#parrafoContacto {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 500px) {
@@ -47,6 +65,12 @@
     .formulario {
         margin-left: 20%;
         margin-right: 20%;
+    }
+    footer p#parrafoDerechos {
+        font-size: 15px;
+    }
+    footer p#parrafoContacto {
+        font-size: 15px;
     }
 }
 
@@ -61,6 +85,12 @@
         margin-left: 25%;
         margin-right: 25%;
     }
+    footer p#parrafoDerechos {
+        font-size: 18px;
+    }
+    footer p#parrafoContacto {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -74,8 +104,25 @@
         margin-left: 30%;
         margin-right: 30%;
     }
+    footer p#parrafoDerechos {
+        font-size: 20px;
+    }
+    footer p#parrafoContacto {
+        font-size: 20px;
+    }
 }
 
 .formulario {
     margin-top: 5%;
+}
+
+footer {
+    margin: 1%;
+    background-color: cadetblue;
+    position: inherit;
+    padding: 1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
 }

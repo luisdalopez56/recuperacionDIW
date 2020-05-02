@@ -1,7 +1,7 @@
 footer {
     margin: 1%;
     background-color: cadetblue;
-    position: absolute;
+    /* position: absolute; */
     padding: 1%;
     bottom: 0;
     left: 0;
@@ -12,15 +12,4 @@ footer {
 .nav-link:hover {
     /* color:  !important; */
     background-color: green !important;
-}
-
-footer {
-    margin: 1%;
-    background-color: cadetblue;
-    position: inherit;
-    padding: 1%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
 }

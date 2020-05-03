@@ -13,3 +13,287 @@ footer {
     /* color:  !important; */
     background-color: green !important;
 }
+
+@media (min-width: 150px) {
+    .textoHeader {
+        font-size: 12px;
+    }
+    #tituloHeader {
+        font-size: 15px;
+    }
+    #footerCopyright {
+        font-size: 10px;
+    }
+    #carouselPrincipal img {
+        height: 180px;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 10px;
+    }
+    #tituloJumbotron {
+        font-size: 25px;
+    }
+    #textoJumbotron {
+        font-size: 10px;
+    }
+    #imagenSomos {
+        height: 60px;
+        width: 60px;
+    }
+    #botonVerArticulo {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 300px) {
+    .textoHeader {
+        font-size: 15px;
+    }
+    #tituloHeader {
+        font-size: 20px;
+    }
+    #footerCopyright {
+        font-size: 10px;
+    }
+    #carouselPrincipal img {
+        height: 200px;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 10px;
+    }
+    #tituloJumbotron {
+        font-size: 23px;
+    }
+    #textoJumbotron {
+        font-size: 11px;
+    }
+    #imagenSomos {
+        height: 80px;
+        width: 80px;
+    }
+    #botonVerArticulo {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 400px) {
+    .textoHeader {
+        font-size: 15px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 12px;
+    }
+    #carouselPrincipal img {
+        height: 215px;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 10px;
+    }
+    #tituloJumbotron {
+        font-size: 20px;
+    }
+    #textoJumbotron {
+        font-size: 12px;
+    }
+    #imagenSomos {
+        height: 90px;
+        width: 90px;
+    }
+    #botonVerArticulo {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 500px) {
+    .textoHeader {
+        font-size: 17px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 15px;
+    }
+    #carouselPrincipal img {
+        height: 250px;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 8px;
+    }
+    #tituloJumbotron {
+        font-size: 15px;
+    }
+    #textoJumbotron {
+        font-size: 15px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+    #botonVerArticulo {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 600px) {
+    #carouselPrincipal img {
+        height: 350px;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    .textoHeader {
+        font-size: 20px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 16px;
+    }
+    #carouselPrincipal img {
+        height: 300px;
+    }
+    #textoBanner {
+        font-size: 10px;
+    }
+    #tituloJumbotron {
+        font-size: 30px;
+    }
+    #textoJumbotron {
+        font-size: 15px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 750px) {
+    #carouselPrincipal img {
+        height: 350px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 14px;
+    }
+    #tituloJumbotron {
+        font-size: 30px;
+    }
+    #textoJumbotron {
+        font-size: 15px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textoHeader {
+        font-size: 25px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 20px;
+    }
+    #carouselPrincipal img {
+        height: 425px;
+        padding-left: 12%;
+        padding-right: 12%;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 18px;
+    }
+    #tituloJumbotron {
+        font-size: 30px;
+    }
+    #textoJumbotron {
+        font-size: 20px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .textoHeader {
+        font-size: 25px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 20px;
+    }
+    #carouselPrincipal img {
+        height: 475px;
+        padding-left: 15%;
+        padding-right: 15%;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 20px;
+    }
+    #tituloJumbotron {
+        font-size: 35px;
+    }
+    #textoJumbotron {
+        font-size: 20px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+#horarioTienda {
+    margin: 0%;
+}
+
+#tarjetaFarmacia {
+    margin: 0%;
+}
+
+#bannerOferta {
+    background-color: gray;
+}
+
+#textoBanner {
+    color: white;
+}
+
+#textoProducto {
+    height: 85px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#botonVerArticulo {
+    background-color: #54b948;
+    border: 1pt solid #375d5e;
+}
+
+#cardProducto {
+    margin-bottom: 5%;
+    padding-bottom: 1%;
+}

@@ -26,6 +26,8 @@
         </aside>
     </div>
 
+
+
     <nav class="navbar navbar-dark" style="background-color: cadetblue; box-shadow: 2px 3px 7px 0px grey;">
 
         <a id="tituloHeader" class="navbar-brand" href="# " style="color: white;">
@@ -38,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarsExample01">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="# ">Lista de productos</a>
+                    <a class="nav-link" href="../paginaCategorias/pagina-categorias.html">Categorias</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../paginaContacto/pagina-contacto.html">Contacto</a>
@@ -178,8 +180,12 @@
 
         </div>
 
-        <div class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <div class="container" style="text-align: center;">
+
+            <h1 style="margin-bottom:3%">Ofertas</h1>
+
+            <div id="carouselOfertas" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
@@ -190,117 +196,182 @@
                                     Blevit Plus Bibe 8 Cereales 600gr
                                 </div>
                                 <div>
-                                    <div> <span> 7,16 € </span> <span><strike> 12,27 €</strike></span></div>
+                                    <div> <span> 7,16 € </span> <span id="precioAnterior"><strike> 12,27 €</strike></span></div>
                                 </div>
                                 <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
                             </div>
 
                             <div id="cardOfertas" class="col-4 col-md-4">
-                                <img src="https://www.dosfarma.com/36927-large_default/dodot-sensitive-recien-nacido-t2-92-unidades.jpg" alt="Denim Jeans" style="width:100%">
+                                <img src="https://www.dosfarma.com/43468-home_default/supradyn-junior-gummies.jpg" alt="Denim Jeans" style="width:100%">
                                 <div id="textoProducto">
-                                    Dodot Sensitive Talla 2 (4-8kg) 92u
+                                    Supradyn Gummies Junior 30 Gominolas + Taza Regalo
                                 </div>
                                 <div>
-                                    <div> <span> 7,16 € </span> <span><strike> 12,27 €</strike></span></div>
+                                    <div> <span> 8,73 € </span> <span id="precioAnterior"><strike> 13,13 €</strike></span></div>
                                 </div>
                                 <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
                             </div>
 
 
                             <div id="cardOfertas" class="col-4 col-md-4">
-                                <img src="https://www.dosfarma.com/36927-large_default/dodot-sensitive-recien-nacido-t2-92-unidades.jpg" alt="Denim Jeans" style="width:100%">
+                                <img src="https://www.dosfarma.com/46769-home_default/weleda-sistema-anticelulitico-3-pasos-pack-especial.jpg" alt="Denim Jeans" style="width:100%">
                                 <div id="textoProducto">
-                                    Dodot Sensitive Talla 2 (4-8kg) 92u
+                                    Weleda Sistema Anticelulítico 3 Pasos Pack Especial
                                 </div>
                                 <div>
-                                    <div> <span> 7,16 € </span> <span><strike> 12,27 €</strike></span></div>
+                                    <div> <span> 47,85 € </span> <span id="precioAnterior"><strike> 67,92 €</strike></span></div>
                                 </div>
                                 <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="First slide">
-                        <img class="d-block w-100" src="..." alt="First slide">
-                        <img class="d-block w-100" src="..." alt="Second slide">
-                    </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Third slide">
-                    </div> -->
+                        <div class="row">
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/46395-home_default/vicks-zzzquil-natura-melatonina-30-unidades.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Vicks ZzzQuil Natura Melatonina 30 Unidades
+                                </div>
+                                <div>
+                                    <div> <span> 7,75 €  </span> <span id="precioAnterior"><strike> 10,50 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/37443-home_default/funsol-pack-ahorro-polvo-60gr-spray-150-ml-regalo.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Funsol Pack Ahorro Polvo 60gr + Spray 150 ml + Regalo </div>
+                                <div>
+                                    <div> <span> 9,85 € </span> <span id="precioAnterior"><strike> 14,65 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+
+
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/46780-home_default/nestle-2-nan-optipro-leche-continuacion-pack-2x800gr.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Nestle 2 NAN Optipro Leche Continuación Pack 2x800gr </div>
+                                <div>
+                                    <div> <span> 21,26 € </span> <span id="precioAnterior"><strike> 33,68 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/7743-large_default/mustela-gel-dermolimpiador-dosificador-500ml.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Mustela Gel Dermolimpiador Dosificador 500ml
+                                </div>
+                                <div>
+                                    <div> <span> 7,65 €  </span> <span id="precioAnterior"><strike> 11,26 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/46766-large_default/corega-pack-accion-total-tabletas-limpiadoras-crema-fijadora.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Corega Pack Acción Total Tabletas Limpiadoras + Crema Fijadora
+                                </div>
+                                <div>
+                                    <div> <span> 32,35 € </span> <span id="precioAnterior"><strike> 35,94 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+
+
+                            <div id="cardOfertas" class="col-4 col-md-4">
+                                <img src="https://www.dosfarma.com/45902-large_default/mascarilla-quirurgica-3-capas-homologadas-ce-50u.jpg" alt="Denim Jeans" style="width:100%">
+                                <div id="textoProducto">
+                                    Mascarilla 3 Capas Homologadas CE - 50u
+                                </div>
+                                <div>
+                                    <div> <span> 44,50 € </span> <span id="precioAnterior"><strike> 95,50 €</strike></span></div>
+                                </div>
+                                <button id="botonVerArticulo" type="button" class="btn btn-primary">Ver artículo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid ">
+                <div class="container">
+                    <h1 class="display-4 " style="font-size: 25px; margin-bottom: 5%; ">Nuestras tiendas</h1>
+
+                    <div class="row ">
+                        <div id="tarjetaFarmacia " class="card col-xs-4 col-sm-6 col-md-6 ">
+                            <img id="imagenFarmacia " class="card-img-top " src="https://s1.eestatic.com/2019/09/28/economia/empresas/Farmacias-Observatorio_de_la_Sanidad-Industria_Farmaceutica-Empresas_432716751_134537260_1024x576.jpg " alt="Card image cap ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Villanueva de Cordoba</h5>
+                                <p class="card-text ">Calle La Paz, 34</p>
+                                <p id="horarioTienda " class="card-text ">9:00 - 14:00 </p>
+                                <p class="card-text ">16:00 - 19:00 </p>
+                            </div>
+                        </div>
+                        <div id="tarjetaFarmacia " class="card col-xs-4 col-sm-6 col-md-6 ">
+                            <img id="imagenFarmacia " class="card-img-top " src="https://live.mrf.io/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/5cf/a22/5cfa226db50084b9bd7f9b0270812a69/parte-en-las-farmacias-57-cerradas-276-profesionales-infectados-y-8-fallecidos.jpg?mtime=1585765934 "
+                                alt="Card image cap ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Jaén</h5>
+                                <p class="card-text ">Calle Ubeda, 4</p>
+                                <p id="horarioTienda " class="card-text ">9:00 - 14:00 </p>
+                                <p class="card-text ">16:00 - 19:00 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="jumbotron jumbotron-fluid ">
-            <div class="container">
-                <h1 class="display-4 " style="font-size: 25px; margin-bottom: 5%; ">Nuestras tiendas</h1>
+            <div class="container ">
+                <h1 class="display-4 " style="font-size: 30px; margin-bottom: 5%; ">Opiniones de clientes</h1>
 
-                <div class="row ">
-                    <div id="tarjetaFarmacia " class="card col-xs-4 col-sm-6 col-md-6 ">
-                        <img id="imagenFarmacia " class="card-img-top " src="https://s1.eestatic.com/2019/09/28/economia/empresas/Farmacias-Observatorio_de_la_Sanidad-Industria_Farmaceutica-Empresas_432716751_134537260_1024x576.jpg " alt="Card image cap ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Villanueva de Cordoba</h5>
-                            <p class="card-text ">Calle La Paz, 34</p>
-                            <p id="horarioTienda " class="card-text ">9:00 - 14:00 </p>
-                            <p class="card-text ">16:00 - 19:00 </p>
-                        </div>
+                <div class="media ">
+                    <div class="media-left media-top ">
+                        <img src="../../resources/images/avatar2.svg " class="media-object " style="width:60px ">
                     </div>
-                    <div id="tarjetaFarmacia " class="card col-xs-4 col-sm-6 col-md-6 ">
-                        <img id="imagenFarmacia " class="card-img-top " src="https://live.mrf.io/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/5cf/a22/5cfa226db50084b9bd7f9b0270812a69/parte-en-las-farmacias-57-cerradas-276-profesionales-infectados-y-8-fallecidos.jpg?mtime=1585765934 "
-                            alt="Card image cap ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Jaén</h5>
-                            <p class="card-text ">Calle Ubeda, 4</p>
-                            <p id="horarioTienda " class="card-text ">9:00 - 14:00 </p>
-                            <p class="card-text ">16:00 - 19:00 </p>
-                        </div>
+                    <div class="media-body " style="margin-left: 5%; ">
+                        <h4 class="media-heading ">Juan Esteban Segarra</h4>
+                        <p>Muy fiable. Me han tratado muy bien y tienen buenos productos.</p>
+                    </div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top ">
+                        <img src="../../resources/images/avatar1.svg " class="media-object " style="width:60px ">
+                    </div>
+                    <div class="media-body " style="margin-left: 5%; ">
+                        <h4 class="media-heading ">María Gómez</h4>
+                        <p>Justo lo que necesitaba ya la mejor precio. Muy rápidos en el envío.</p>
+                    </div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top ">
+                        <img src="../../resources/images/avatar3.svg " class="media-object " style="width:60px ">
+                    </div>
+                    <div class="media-body " style="margin-left: 5%; ">
+                        <h4 class="media-heading ">Anónimo</h4>
+                        <p>No está nada mal, es muy fiable. Pero un poco descontento con la rapidez esta vez, imagino que será debido a la epidemia.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid ">
-        <div class="container ">
-            <h1 class="display-4 " style="font-size: 30px; margin-bottom: 5%; ">Opiniones de clientes</h1>
-
-            <div class="media ">
-                <div class="media-left media-top ">
-                    <img src="../../resources/images/avatar2.svg " class="media-object " style="width:60px ">
-                </div>
-                <div class="media-body " style="margin-left: 5%; ">
-                    <h4 class="media-heading ">Juan Esteban Segarra</h4>
-                    <p>Muy fiable. Me han tratado muy bien y tienen buenos productos.</p>
-                </div>
-            </div>
-            <div class="media ">
-                <div class="media-left media-top ">
-                    <img src="../../resources/images/avatar1.svg " class="media-object " style="width:60px ">
-                </div>
-                <div class="media-body " style="margin-left: 5%; ">
-                    <h4 class="media-heading ">María Gómez</h4>
-                    <p>Justo lo que necesitaba ya la mejor precio. Muy rápidos en el envío.</p>
-                </div>
-            </div>
-            <div class="media ">
-                <div class="media-left media-top ">
-                    <img src="../../resources/images/avatar3.svg " class="media-object " style="width:60px ">
-                </div>
-                <div class="media-body " style="margin-left: 5%; ">
-                    <h4 class="media-heading ">Anónimo</h4>
-                    <p>No está nada mal, es muy fiable. Pero un poco descontento con la rapidez esta vez, imagino que será debido a la epidemia.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 

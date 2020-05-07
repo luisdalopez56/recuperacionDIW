@@ -1,0 +1,22 @@
+#imagenCategoria {
+    height: 150px;
+}
+
+.card {
+    margin-bottom: 5%;
+}
+
+footer {
+    margin: 1%;
+    background-color: cadetblue;
+    position: inherit;
+    padding: 1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#bannerOferta {
+    background-color: gray;
+}

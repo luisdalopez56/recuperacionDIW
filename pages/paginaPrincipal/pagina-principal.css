@@ -78,6 +78,17 @@ footer {
     #botonVerArticulo {
         font-size: 12px;
     }
+    #precioAnterior {
+        font-size: 12px;
+    }
+    #precioActual {
+        font-size: 12px;
+    }
+    #textoProducto {
+        height: 50px;
+        font-size: 11px !important;
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 400px) {
@@ -109,6 +120,12 @@ footer {
         width: 90px;
     }
     #botonVerArticulo {
+        font-size: 12px;
+    }
+    #precioAnterior {
+        font-size: 12px;
+    }
+    #precioActual {
         font-size: 12px;
     }
 }
@@ -177,6 +194,11 @@ footer {
         height: 100px;
         width: 100px;
     }
+    #textoProducto {
+        height: 50px;
+        font-size: 13px !important;
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 750px) {
@@ -199,6 +221,12 @@ footer {
     #imagenSomos {
         height: 100px;
         width: 100px;
+    }
+    #precioAnterior {
+        font-size: 15px;
+    }
+    #precioActual {
+        font-size: 15px;
     }
 }
 
@@ -266,6 +294,38 @@ footer {
     }
 }
 
+@media (min-width: 1450px) {
+    .textoHeader {
+        font-size: 25px;
+    }
+    #tituloHeader {
+        font-size: 25px;
+    }
+    #footerCopyright {
+        font-size: 20px;
+    }
+    #carouselPrincipal img {
+        height: 475px;
+        padding-left: 25%;
+        padding-right: 25%;
+        background-color: rgb(95, 158, 160, 0.3);
+        filter: drop-shadow(2px 1px 9px grey);
+    }
+    #textoBanner {
+        font-size: 20px;
+    }
+    #tituloJumbotron {
+        font-size: 35px;
+    }
+    #textoJumbotron {
+        font-size: 20px;
+    }
+    #imagenSomos {
+        height: 100px;
+        width: 100px;
+    }
+}
+
 #horarioTienda {
     margin: 0%;
 }
@@ -300,4 +360,12 @@ footer {
 
 #cardOfertas {
     text-align: center;
+}
+
+#carouselOfertas {
+    margin-bottom: 5%;
+}
+
+#precioAnterior {
+    color: red;
 }

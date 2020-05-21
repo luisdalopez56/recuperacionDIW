@@ -33,3 +33,32 @@ footer {
     color: white;
     font-size: 25px;
 }
+
+#imagenCuenta {
+    width: 30px;
+    height: 30px;
+}
+
+#botoneraMenu li:hover {
+    background-color: #54b948;
+    color: white;
+}
+
+#botoneraMenu li a:hover {
+    color: white;
+}
+
+#indentificarseButton:hover {
+    /* border-radius: 50%; */
+    background-color: #54b948;
+    color: white;
+}
+
+#bannerOferta {
+    background-color: gray;
+    color: white;
+}
+
+#carouselPrincipal {
+    height: 340px;
+}

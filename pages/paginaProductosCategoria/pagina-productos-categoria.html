@@ -26,34 +26,142 @@
         </aside>
     </div> -->
 
-    <nav class="navbar navbar-dark" style="background-color: cadetblue; box-shadow: 2px 3px 7px 0px grey;">
+    <!-- <nav class="navbar navbar-dark" style="background-color: cadetblue; box-shadow: 2px 3px 7px 0px grey;">
 
-        <a id="tituloHeader" class="navbar-brand" href="../paginaPrincipal/pagina-principal.html" style="color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    One of three columns
+                </div>
+                <div class="col-md-4">
+                    <button style=" background-color: #54b948; border: 1pt solid #375d5e;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" class="ccol."></span>
+                      </button> </div>
+            </div>
+        </div>
+    </nav> -->
+    <div class="banner d-none d-md-block">
+        <aside id="bannerOferta" class="easycontent_13 block easycontent section">
+            <div class=" text-center block_content">
+                <div id="textoBanner">Envío 24h. Gratis a partir de 65 Euros. 5 Euros de Descuento en tu Primera Compra para Pedidos Superiores a 65 Euros</div>
+            </div>
+        </aside>
+    </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: white; box-shadow: 2px 3px 7px 0px grey; padding-left: 10%;
+    height: 115px;
+    padding-right: 10%;">
+        <a id="tituloHeader" class="navbar-brand" href="../paginaPrincipal/pagina-principal.html" style="color: black;">
             <img src="../../resources/images/logo.svg" alt="logo" style="width:40px;"> PHARMASHOP
-        </a>
-        <button style=" background-color: #54b948; border: 1pt solid #375d5e;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample01">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../paginaCategorias/pagina-categorias.html">Categorias</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="botoneraMenu" class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="btn" href="#">PRODUCTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../paginaContacto/pagina-contacto.html">Contacto</a>
+                    <a class="btn" href="../paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn" href="../paginaContacto/pagina-contacto.html">CONTACTO</a>
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
-            </form>
+        </div>
+
+        <a id="indentificarseButton" class="btn" href="#">IDENTIFICARSE</a>
+        <img id="imagenCuenta" src="../../resources/images/man-user.svg">
+    </nav>
+
+    <nav class="navbar navbar-expand-lg" style="padding-left: 10%; padding-right: 10%; background-color: #54b948;">
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="place-content: center;">
+            <ul class="navbar-nav">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         HIGIENE CORPORAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Geles</a>
+                        <a class="dropdown-item" href="#">Chapús</a>
+                        <a class="dropdown-item" href="#">Esponjas</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         COVID-19
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Mascarillas</a>
+                        <a class="dropdown-item" href="#">Tests</a>
+                        <a class="dropdown-item" href="#">Hidrogel</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         MEDICAMENTOS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Homeopatía</a>
+                        <a class="dropdown-item" href="#">Mareos</a>
+                        <a class="dropdown-item" href="#">Alergias</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         COSMÉTICA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Facial</a>
+                        <a class="dropdown-item" href="#">Maquillaje</a>
+                        <a class="dropdown-item" href="#">Labial</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         VETERINARIA
+                    </a>
+
+                </li>
+            </ul>
         </div>
     </nav>
 
 </header>
 
 <body>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators " data-slide-to="0 " class="active "></li>
+            <li data-target="#carouselExampleIndicators " data-slide-to="1 "></li>
+            <li data-target="#carouselExampleIndicators " data-slide-to="2 "></li>
+        </ol>
+        <div id="carouselPrincipal" class="carousel-inner">
+            <div class="carousel-item active ">
+                <img class="d-block w-100" src="https://www.portalfarma.com/Profesionales/campanaspf/Asesoramiento-salud-publica/infeccion-coronavirus-2019-nCoV/PublishingImages/cabecera-coronavirus.png" alt="First slide ">
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="https://fmasfarmacias.com/wp-content/uploads/2014/03/slider-web.png" alt="Second slide ">
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="https://www.farmaciapuertobanus.com/img/cms/BANNERS-03.png.pagespeed.ce.8ij_TGior4.png" alt="Third slide ">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+            <span class="sr-only ">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
 
     <div class="container">
         <p id="textoTitulo" style="font-weight: bold;">Frente al COVID-19</p>

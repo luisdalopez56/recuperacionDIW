@@ -19,34 +19,124 @@
 
 <header>
 
-    <nav class="navbar navbar-dark" style="background-color: cadetblue; box-shadow: 2px 3px 7px 0px grey;">
+    <div class="banner d-none d-md-block">
+        <aside id="bannerOferta" class="easycontent_13 block easycontent section">
+            <div class=" text-center block_content">
+                <div id="textoBanner">Envío 24h. Gratis a partir de 65 Euros. 5 Euros de Descuento en tu Primera Compra para Pedidos Superiores a 65 Euros</div>
+            </div>
+        </aside>
+    </div>
+    <nav class="navbar navbar-expand-md" style="background-color: white; box-shadow: 2px 3px 7px 0px grey; padding-left: 10%; height: 115px; padding-right: 10%;">
 
-        <a id="tituloHeader" class="navbar-brand" href="../paginaPrincipal/pagina-principal.html" style="color: white;">
+        <a id="tituloHeader" class="navbar-brand" href="../../index.html" style="color: black;">
             <img src="../../resources/images/logo.svg" alt="logo" style="width:40px;"> PHARMASHOP
         </a>
-        <button style=" background-color: #54b948; border: 1pt solid #375d5e;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse d-md-none" id="navbarNav">
+            <ul id="botoneraMenu" class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="btn" href="#">PRODUCTOS</a>
+                </li>
+                <!--  <li class="nav-item">
+                    <a class="btn" href="../paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="btn" href="../paginaContacto/pagina-contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbarsExample01">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../paginaPrincipal/pagina-principal.html">Pagina principal</a>
+        <div style="display: flex;">
+            <div class="dropdown dropdown-left">
+                <a id="imageDropdown" data-toggle="dropdown">
+                    <img id="imagenCuenta" src="../../resources/images/man-user.svg">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="imageDropdown">
+                    <a class="dropdown-item" href="../paginaIniciarSesion/pagina-iniciarSesion.html">Iniciar sesión</a>
+                    <a class="dropdown-item" href="../paginaRegistro/pagina-registro.html">Registrarse</a>
+                </ul>
+            </div>
+
+            <div class="dropdown dropdown-left d-md-none" style="margin-left: 30%;">
+                <a href="#" id="imageDropdown" data-toggle="dropdown">
+                    <img id="imagenCuenta" src="../../resources/images/open-menu.svg">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="imageDropdown">
+                    <!-- <a class="dropdown-item" href="pages/paginaCategorias/pagina-categorias.html">Categorías</a> -->
+                    <a class="dropdown-item" href="../paginaContacto/pagina-contacto.html">Contacto</a>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <nav class="navbar navbar-expand" style="padding-left: 10%; padding-right: 10%; background-color: #54b948;">
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="place-content: center;">
+            <ul class="navbar-nav">
+
+                <li class="nav-item dropdown d-none d-sm-block">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         HIGIENE CORPORAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Geles</a>
+                        <a class="dropdown-item" href="#">Chapús</a>
+                        <a class="dropdown-item" href="#">Esponjas</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../paginaContacto/pagina-contacto.html">Contacto</a>
+                <li class="nav-item dropdown d-none d-sm-block">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         COVID-19
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Mascarillas</a>
+                        <a class="dropdown-item" href="#">Tests</a>
+                        <a class="dropdown-item" href="#">Hidrogel</a>
+                    </div>
                 </li>
+                <li class="nav-item dropdown d-none d-md-block">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         MEDICAMENTOS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Homeopatía</a>
+                        <a class="dropdown-item" href="#">Mareos</a>
+                        <a class="dropdown-item" href="#">Alergias</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown d-none d-md-block">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         COSMÉTICA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Facial</a>
+                        <a class="dropdown-item" href="#">Maquillaje</a>
+                        <a class="dropdown-item" href="#">Labial</a>
+                    </div>
+                </li>
+                <li class="d-none d-md-block">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                         VETERINARIA
+                    </a>
+
+                </li>
+
 
             </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
-            </form>
         </div>
     </nav>
 
 </header>
 
 <body>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
+            <li class="breadcrumb-item active">Categorías</li>
+        </ol>
+    </nav>
 
     <h2 style="margin-top: 5%; text-align: center;">Lista de categorias</h2>
 
@@ -89,7 +179,7 @@
             <div class="col-12 col-lg-6 ">
                 <a href="../paginaPrincipal/pagina-principal.html" style="text-decoration: none; color: black;">
                     <div class="card">
-                        <img id="imagenCategoria" class="card-img-top" src="https://peruvianwit.com/tiendabtl/wp-content/uploads/2018/10/btl-banner-higiene-sub-1.jpg " alt="Card image cap ">
+                        <img id="imagenCategoria" class="card-img-top" src="https://www.productoslea.com/wp-content/uploads/2018/03/Banner-Hombre-Afeitado-2018.jpg" alt="Card image cap ">
                         <div class="card-body">
                             <h5>Higiene Corporal</h5>
                             <p class="card-text">Higiene para tu cuerpo. Geles, champú, cremas...</p>

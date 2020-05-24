@@ -1,6 +1,6 @@
 footer {
     margin: 1%;
-    background-color: cadetblue;
+    background-color: #54b948;
     /* position: absolute; */
     padding: 1%;
     bottom: 0;
@@ -279,8 +279,8 @@ footer {
     }
     #carouselPrincipal img {
         height: 475px;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: rgb(95, 158, 160, 0.3);
         filter: drop-shadow(2px 1px 9px grey);
     }
@@ -311,8 +311,8 @@ footer {
     }
     #carouselPrincipal img {
         height: 475px;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: rgb(95, 158, 160, 0.3);
         filter: drop-shadow(2px 1px 9px grey);
     }
@@ -373,4 +373,9 @@ footer {
 
 #precioAnterior {
     color: red;
+}
+
+#imagenCuenta {
+    width: 30px;
+    height: 30px;
 }

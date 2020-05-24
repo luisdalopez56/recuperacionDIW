@@ -20,3 +20,79 @@ footer {
 #bannerOferta {
     background-color: gray;
 }
+
+footer {
+    margin: 1%;
+    background-color: #54b948;
+    position: inherit;
+    padding: 1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+footer {
+    margin: 1%;
+    background-color: #54b948;
+    position: inherit;
+    padding: 1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#cardProducto {
+    margin-bottom: 5%;
+    padding-bottom: 1%;
+}
+
+#imagenCategoria {
+    height: 175px !important;
+}
+
+#textoProducto {
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#textoTitulo {
+    font-weight: bold;
+    background-color: gainsboro;
+    text-align: center;
+    margin: 3%;
+    padding: 4%;
+    color: white;
+    font-size: 25px;
+}
+
+#imagenCuenta {
+    width: 30px;
+    height: 30px;
+}
+
+#botoneraMenu li:hover {
+    background-color: #54b948;
+    color: white;
+}
+
+#botoneraMenu li a:hover {
+    color: white;
+}
+
+#indentificarseButton:hover {
+    /* border-radius: 50%; */
+    background-color: #54b948;
+    color: white;
+}
+
+#bannerOferta {
+    background-color: gray;
+    color: white;
+}
+
+#carouselPrincipal {
+    /* height: 340px; */
+}

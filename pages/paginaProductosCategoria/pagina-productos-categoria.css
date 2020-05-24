@@ -1,6 +1,6 @@
 footer {
     margin: 1%;
-    background-color: cadetblue;
+    background-color: #54b948;
     position: inherit;
     padding: 1%;
     bottom: 0;
@@ -60,5 +60,5 @@ footer {
 }
 
 #carouselPrincipal {
-    height: 340px;
+    /* height: 340px; */
 }

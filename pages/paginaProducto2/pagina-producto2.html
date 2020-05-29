@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="pagina-categorias.css">
+    <link rel="stylesheet" href="pagina-producto2.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Lista de categorias</title>
+    <title>Producto</title>
 </head>
 
 <header>
@@ -28,7 +27,7 @@
     </div>
     <nav class="navbar navbar-expand-md" style="background-color: white; box-shadow: 2px 3px 7px 0px grey; padding-left: 10%; height: 115px; padding-right: 10%;">
 
-        <a id="tituloHeader" class="navbar-brand" href="../../index.html" style="color: black;">
+        <a id="tituloHeader" class="navbar-brand" href="../paginaPrincipal/pagina-principal.html" style="color: black;">
             <img src="../../resources/images/logo.svg" alt="logo" style="width:40px;"> PHARMASHOP
         </a>
         <div class="collapse navbar-collapse d-md-none" id="navbarNav">
@@ -36,9 +35,9 @@
                 <!-- <li class="nav-item active">
                     <a class="btn" href="#">PRODUCTOS</a>
                 </li> -->
-                <!--  <li class="nav-item">
+                <li class="nav-item">
                     <a class="btn" href="../paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
                     <a class="btn" href="../paginaContacto/pagina-contacto.html">CONTACTO</a>
                 </li>
@@ -47,12 +46,12 @@
 
         <div style="display: flex;">
             <div class="dropdown dropdown-left">
-                <a id="imageDropdown" data-toggle="dropdown">
+                <a href="#" id="imageDropdown" data-toggle="dropdown">
                     <img id="imagenCuenta" src="../../resources/images/man-user.svg">
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="imageDropdown">
-                    <a class="dropdown-item" href="../paginaIniciarSesion/pagina-iniciarSesion.html">Iniciar sesión</a>
-                    <a class="dropdown-item" href="../paginaRegistro/pagina-registro.html">Registrarse</a>
+                    <a class="dropdown-item" href="../../">Iniciar sesión</a>
+                    <a class="dropdown-item" href="#">Registrarse</a>
                 </ul>
             </div>
 
@@ -61,8 +60,8 @@
                     <img id="imagenCuenta" src="../../resources/images/open-menu.svg">
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="imageDropdown">
-                    <!-- <a class="dropdown-item" href="pages/paginaCategorias/pagina-categorias.html">Categorías</a> -->
-                    <a class="dropdown-item" href="../paginaContacto/pagina-contacto.html">Contacto</a>
+                    <a class="dropdown-item" href="#">Categorías</a>
+                    <a class="dropdown-item" href="#">Contacto</a>
                 </ul>
             </div>
         </div>
@@ -130,69 +129,78 @@
 </header>
 
 <body>
-
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
-            <li class="breadcrumb-item active">Categorías</li>
-        </ol>
-    </nav>
-
-    <h2 style="margin-top: 5%; text-align: center;">Lista de categorias</h2>
-
-    <div class="container" style="margin-top: 5%;">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
-                <a href="../paginaProductosCategoria/pagina-productos-categoria.html" style="text-decoration: none; color: black;">
-                    <div class="card">
-                        <img id="imagenCategoria" class="card-img-top" src="https://img.freepik.com/vector-gratis/concepto-banner-coronavirus-ncov-o-virus-covid-19_1017-24314.jpg?size=626&ext=jpg" alt="Card image cap ">
-                        <div class="card-body">
-                            <h5>Frente al COVID-19</h5>
-                            <p class="card-text">Artículos dirigidos a la epidemia del COVID-19. Mascarillas, hidrogel...</p>
-                        </div>
+            <div id="carouselExampleControls" class="carousel slide col-md-6 col-sm-12" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.dosfarma.com/44620-large_default/vitae-flexivita-pro-60-capsulas.jpg" alt="First slide">
                     </div>
+                    <!-- <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.dosfarma.com/46459-large_default/mascarilla-ffp2-n95-pack-3-unidades.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.dosfarma.com/46458-large_default/mascarilla-ffp2-n95-pack-3-unidades.jpg" alt="Third slide">
+                    </div> -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="col-12 col-lg-6 ">
-                <a href="../paginaProductosCategoria2/pagina-productos-categoria2.html" style="text-decoration: none; color: black;">
-                    <div class="card">
-                        <img id="imagenCategoria" class="card-img-top" src="https://image.freepik.com/foto-gratis/pildoras-equiupments-medicos-fondo-verde-bandera_8087-321.jpg " alt="Card image cap ">
-                        <div class="card-body">
-                            <h5>Analgesicos</h5>
-                            <p class="card-text">Analgesicos y antiflamatorios sin receta</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-lg-6 ">
-                <a href="../paginaPrincipal/pagina-principal.html" style="text-decoration: none; color: black;">
-                    <div class="card">
-                        <img id="imagenCategoria" class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/588b82d529687f0e1bbc047c/1487201723505-BU3GH0KYCC16YL82J770/ke17ZwdGBToddI8pDm48kEeFNJgB2NPn1nD8_csf3a0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2drtopz5sJdtnHpL1T4skClYANsglmcLhanTlAduk9BC13WUfc_ZsVm9Mi1E6FasEnQ/banner-bebes.jpg?format=2500w "
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <h5>Bebés</h5>
-                            <p class="card-text">Todo para tu bebe. Pañales, cremas, y accesorios multiples para su salud</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-lg-6 ">
-                <a href="../paginaPrincipal/pagina-principal.html" style="text-decoration: none; color: black;">
-                    <div class="card">
-                        <img id="imagenCategoria" class="card-img-top" src="https://www.productoslea.com/wp-content/uploads/2018/03/Banner-Hombre-Afeitado-2018.jpg" alt="Card image cap ">
-                        <div class="card-body">
-                            <h5>Higiene Corporal</h5>
-                            <p class="card-text">Higiene para tu cuerpo. Geles, champú, cremas...</p>
-                        </div>
-                    </div>
-                </a>
+            <div class="col-md-6 col-sm-12" style="margin-top: 5%;">
+                <h3>Vitae Flexivita Pro 60 Cápsulas
+                </h3>
+                <p>Ref: 179510.6</p>
+                <hr>
+                <p>Complemento alimenticio que ayuda a fortalecer los huesos y articulaciones. Triple acción: antiinflamatoria, analgésica y regeneradora.</p>
+                <p style="font-weight: bold; font-size: 25px;">24,26 €</p>
+                <div style="text-align: center;">
+                    <a href="../paginaProducto2/pagina-producto2.html" class="btn btn-success">Comprar artículo</a>
+                </div>
             </div>
         </div>
     </div>
+    <div class="jumbotron jumbotron-fluid ">
+        <div class="container ">
+            <h1 class="display-4 " style="font-size: 30px; margin-bottom: 5%; ">Opiniones de clientes</h1>
 
+            <div class="media ">
+                <div class="media-left media-top ">
+                    <img src="../../resources/images/avatar2.svg" class="media-object " style="width:60px ">
+                </div>
+                <div class="media-body " style="margin-left: 5%; ">
+                    <h4 class="media-heading ">Juan Perez</h4>
+                    <p>Me ha venido muy bien para el cuerpo. Muy efectiva</p>
+                </div>
+            </div>
+            <div class="media ">
+                <div class="media-left media-top ">
+                    <img src="../../resources/images/avatar1.svg " class="media-object " style="width:60px ">
+                </div>
+                <div class="media-body " style="margin-left: 5%; ">
+                    <h4 class="media-heading ">Juan Martín</h4>
+                    <p>Actúan rápidamente</p>
+                </div>
+            </div>
+            <div class="media ">
+                <div class="media-left media-top ">
+                    <img src="../../resources/images/avatar3.svg " class="media-object " style="width:60px ">
+                </div>
+                <div class="media-body " style="margin-left: 5%; ">
+                    <h4 class="media-heading ">Anónimo</h4>
+                    <p>Fáciles de tomar, muy efectivas</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
-<footer class="page-footer font-small indigo ">
+<footer class="page-footer font-small indigo">
 
     <div style="text-align: center; ">
         <h6 class="text-uppercase font-weight-bold ">

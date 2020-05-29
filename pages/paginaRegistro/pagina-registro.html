@@ -33,14 +33,11 @@
         </a>
         <div class="collapse navbar-collapse d-md-none" id="navbarNav">
             <ul id="botoneraMenu" class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="btn" href="#">PRODUCTOS</a>
+                <li class="nav-item">
+                    <a class="btn" href="../paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn" href="paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn" href="paginaContacto/pagina-contacto.html">CONTACTO</a>
+                    <a class="btn" href="../paginaContacto/pagina-contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </div>
@@ -76,22 +73,33 @@
         <form class="formulario">
             <fieldset>
                 <legend style="text-align: center;">Nuevo usuario</legend>
-                <div class="form-group">
-                    <label for="formUsuario" class="d-none d-sm-block">Nombre de usuario</label>
-                    <input type="email" class="form-control" id="formUsuario" aria-describedby="emailHelp" placeholder="Correo electrónico">
-                </div>
-                <div class="form-group">
-                    <label for="formMail" class="d-none d-sm-block">Correo electrónico</label>
-                    <input type="email" class="form-control" id="formMail" aria-describedby="emailHelp" placeholder="Correo electrónico">
-                </div>
-                <div class="form-group">
-                    <label for="formPassword" class="d-none d-sm-block">Contraseña</label>
-                    <input type="password" class="form-control" id="formPassword" placeholder="Contraseña">
+
+                <div class="form-group row">
+                    <label for="formUsuario" class="col-md-2 col-form-label d-none d-md-block">Usuario</label>
+                    <div class="col-md-10 col-lg-10">
+                        <input type="usuario" class="form-control" id="formusuario" placeholder="Nombre de usuario">
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="formConfirmPassword" class="d-none d-sm-block">Repetir contraseña</label>
-                    <input type="password" class="form-control" id="formConfirmPassword" placeholder="Repite la contraseña">
+                <div class="form-group row">
+                    <label for="formUsuario" class="col-md-2 col-form-label d-none d-md-block">Email</label>
+                    <div class="col-md-10 col-lg-10">
+                        <input type="email" class="form-control" id="formMail" aria-describedby="emailHelp" placeholder="Correo electrónico">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="formUsuario" class="col-md-2 col-form-label d-none d-md-block">Contraseña</label>
+                    <div class="col-md-10 col-lg-10">
+                        <input type="password" class="form-control" id="formPassword" placeholder="Contraseña">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="formUsuario" class="col-md-2 col-form-label d-none d-md-block">Repetir</label>
+                    <div class="col-md-10 col-lg-10">
+                        <input type="password" class="form-control" id="formConfirmPassword" placeholder="Repite la contraseña">
+                    </div>
                 </div>
 
                 <div style="text-align: center; margin-top: 15%; margin-bottom: 15%;">

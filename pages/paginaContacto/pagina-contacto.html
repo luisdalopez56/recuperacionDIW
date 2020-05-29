@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="pagina-contacto.css">
@@ -11,12 +16,49 @@
     <title>Document</title>
 </head>
 
-<header style="background-color: cadetblue;">
-    <nav class="navbar navbar-expand-lg" style="background-color: cadetblue;">
-        <a id="tituloHeader" class="navbar-brand" href="#" style="color: white;">
+<header>
+
+    <div class="banner d-none d-md-block">
+        <aside id="bannerOferta" class="easycontent_13 block easycontent section">
+            <div class=" text-center block_content">
+                <div id="textoBanner">Envío 24h. Gratis a partir de 65 Euros. 5 Euros de Descuento en tu Primera Compra para Pedidos Superiores a 65 Euros</div>
+            </div>
+        </aside>
+    </div>
+    <nav class="navbar navbar-expand-md" style="background-color: white; box-shadow: 2px 3px 7px 0px grey; padding-left: 10%; height: 115px; padding-right: 10%;">
+
+        <a id="tituloHeader" class="navbar-brand" href="../../index.html" style="color: black;">
             <img src="../../resources/images/logo.svg" alt="logo" style="width:40px;"> PHARMASHOP
         </a>
+        <div class="collapse navbar-collapse d-md-none" id="navbarNav">
+            <ul id="botoneraMenu" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="btn" href="../paginaCategorias/pagina-categorias.html">CATEGORIAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn" href="../paginaContacto/pagina-contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="dropdown dropdown-left d-md-none">
+            <a id="imageDropdown" data-toggle="dropdown">
+                <img id="imagenCuenta" src="../../resources/images/open-menu.svg">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="imageDropdown">
+                <a class="dropdown-item" href="../paginaCategorias/pagina-categorias.html">Categorías</a>
+                <a class="dropdown-item" href="../paginaContacto/pagina-contacto.html">Contacto</a>
+            </ul>
+        </div>
+
+
     </nav>
+
+    <nav class="navbar navbar-expand" style="padding-left: 10%; padding-right: 10%; background-color: #54b948;">
+
+    </nav>
+
 </header>
 
 <body>
@@ -34,23 +76,23 @@
             </div>
 
             <div style="text-align: center; margin-top: 10%; margin-bottom: 5%;">
-                <a href="../../index.html" style="background: cadetblue; border: 1pt solid gray;" class="btn btn-info" role="button">Enviar</a>
+                <a href="../../index.html" style="background: #54b948; border: 1pt solid gray;" class="btn btn-info" role="button">Enviar</a>
 
                 <!-- <button  type="submit" class="btn btn-primary">Entrar</button> -->
             </div>
         </fieldset>
     </form>
 </body>
-<footer class="page-footer font-small indigo">
+<footer class="page-footer font-small indigo ">
 
-    <!-- <div style="text-align: center;">
-        <h6 class="text-uppercase font-weight-bold">
-            <a href="pages/paginaContacto/pagina-contacto.html">Contacto</a>
+    <div style="text-align: center; ">
+        <h6 class="text-uppercase font-weight-bold ">
+            <a href="pages/paginaContacto/pagina-contacto.html ">Contacto</a>
         </h6>
-    </div> -->
+    </div>
 
-    <div id="footerCopyright" class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="#"> PharmaShop</a>
+    <div id="footerCopyright " class="footer-copyright text-center py-3 ">© 2020 Copyright
+        <a href="# "> PharmaShop</a>
     </div>
 
 </footer>

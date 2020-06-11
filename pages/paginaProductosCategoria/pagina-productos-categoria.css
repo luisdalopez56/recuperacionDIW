@@ -62,3 +62,14 @@ footer {
 #carouselPrincipal {
     /* height: 340px; */
 }
+
+#rowInfoArticulos {
+    text-align: center;
+    align-self: center;
+    border: 0.5pt solid grey;
+}
+
+#rowInfoArticulos div {
+    font-size: 20px;
+    font-weight: bold;
+}

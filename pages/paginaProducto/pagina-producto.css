@@ -73,3 +73,9 @@ footer {
 #carouselPrincipal {
     /* height: 340px; */
 }
+
+#navMenuSecundario {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #54b948;
+}
